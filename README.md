@@ -24,6 +24,10 @@ This is a **Netflix Clone** built using **HTML and CSS**. It's part of a hands-o
 ## 📂 Repository
 🔗 [GitHub Repository](https://github.com/Shaurya07dev/Netflix_clone)
 
+## PREVIEW
+[Project Preview](assets/images/image.png)
+
+---
 ---
 
 Feel free to star ⭐ the repo if you liked it!
