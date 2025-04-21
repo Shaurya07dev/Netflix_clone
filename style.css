@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background-image: url(assets/images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
+    height: 62px;
+    align-content: center;
+}
+
+nav img {
+    width: 144px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.hero>:nth-child(2) {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.separation {
+    height: 5px;
+    background-color: rgb(69, 67, 67);
+}
+.nav-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.btn {
+    padding: 3px 13px;
+    font-weight: 400;
+    background-color: rgba(240, 239, 239, 0.039);
+    color: white;
+    border: 1.5px solid white;
+    font-size: 11px;
+    border-radius: 5px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 16px;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: 800;
+    border: 1px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    padding: 2px 7px;
+}
+
+.main input {
+    padding: 5px 49px 5px 12px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.6);
+    border: 1px solid rgba(245, 242, 242, 0.4);
+
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 75vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 121px;
+    right: 80px;
+    width: 401px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 18px;
+
+}
+
+@media screen and (max-width: 850px) {
+
+    nav{
+        max-width: 90vw;
+        
+    }
+    nav img {
+        width: 65px;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secImg img {
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 305px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item{
+        align-items: center;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width: 850px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
